@@ -1,1 +1,36 @@
 // Navigation Styles here
+
+header {
+    .flex(row, space-evenly, center);
+    margin: 0 auto;
+    width: 50%;
+    @media @mobile{
+        .flex(column, center, center);
+        
+    }
+    
+}
+
+.tip{
+    border-bottom: 2px dashed @navigation-border;
+  margin:0 auto;
+    
+   
+}
+
+nav {
+    
+    display:flex;
+    justify-content: space-between;
+    width: 50%;
+    @media @mobile{
+        .flex(row, space-between, center);
+
+        width:100%;
+    }
+    
+}
+nav a {
+    text-decoration: none;
+}
+

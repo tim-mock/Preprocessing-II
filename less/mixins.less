@@ -1,1 +1,18 @@
 // Mixins in here
+
+
+.button(){
+background-color: teal;
+color: white;
+width: 100%;
+border-radius: 1.2rem;
+padding: 1.2rem;
+
+}
+
+.flex(@direction, @justify, @align){
+    display:flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+}
